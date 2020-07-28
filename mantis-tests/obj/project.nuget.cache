@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "TlrrEelqF98E8NAEFYuAoBS+LtFAtsRJTlCEJfofBF8cy9KN4txBo+w/t5h9Qk5AWjpldNq9xMiDkOezKDGtUw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Demon\\source\\repos\\mantis\\mantis-tests\\mantis-tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Demon\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\nunit\\2.7.1\\nunit.2.7.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.net.ftpclient\\1.0.5824.34026\\system.net.ftpclient.1.0.5824.34026.nupkg.sha512"
+  ],
+  "logs": []
+}
