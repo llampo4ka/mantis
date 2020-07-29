@@ -23,9 +23,15 @@ namespace mantis_tests
         {
             driver = new ChromeDriver();
             baseURL = "http://localhost";
-            Registration = new RegistrationHelper(this);
-            Ftp = new FtpHelper(this);
-            James = new JameHelper(this);
+            //Registration = new RegistrationHelper(this);
+            //Ftp = new FtpHelper(this);
+            //James = new JameHelper(this);
+
+            Auth = new LoginHelper(this);
+            Navigate = new NavigatorHelper(this);
+            Project = new ProjectHelper(this);
+
+
         }
 
         ~ApplicationManager()
@@ -62,8 +68,12 @@ namespace mantis_tests
         }
 
 
-        public RegistrationHelper Registration { get; set; }
-        public FtpHelper Ftp { get; set; }
-        public JameHelper James { get; set; }
+        //public RegistrationHelper Registration { get; set; }
+        //public FtpHelper Ftp { get; set; }
+        //public JameHelper James { get; set; }
+
+        public LoginHelper Auth  { get; }
+        public NavigatorHelper Navigate { get; set; }
+        public ProjectHelper Project { get; set; }
     }
 }

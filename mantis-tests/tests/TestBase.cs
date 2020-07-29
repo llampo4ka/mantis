@@ -9,15 +9,15 @@ namespace mantis_tests
     {
         protected ApplicationManager app;
 
-        public static bool PERFORM_LONG_UI_CHECKS = true;
+        //public static bool PERFORM_LONG_UI_CHECKS = true;
 
-        [TestFixtureSetUp]
+        [SetUp]
         public void SetupApplicationManager()
         {
 
             app = ApplicationManager.GetInstance();
 
-           
+            app.Auth.Login(new AccountData("administrator", "root"));
 
         }
 
