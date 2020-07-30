@@ -61,6 +61,14 @@
             "System.Net.FtpClient": {
               "target": "Package",
               "version": "[1.0.5824.34026, )"
+            },
+            "linq2db": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "linq2db.MySql": {
+              "target": "Package",
+              "version": "[3.0.1, )"
             }
           }
         }

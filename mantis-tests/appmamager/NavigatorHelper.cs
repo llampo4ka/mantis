@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
@@ -24,9 +25,21 @@ namespace mantis_tests
 
         public void GoToManagmentTab()
         {
-            driver.FindElement(By.XPath("//button[@id='menu-toggler']")).Click();
-            driver.FindElement(By.XPath("//div[@id='main-container']/div[@id='sidebar']/ul/li[7]/a"))
-                .Click();
+            int i = 0;
+            List<ProjectData> projList = ProjectData.GetAll();
+            if (projList.Count == 0)
+            {
+                i = 1;
+            }
+
+            if (IsElementPresent(By.XPath("//button[@id='menu-toggler']")))
+            {
+                driver.FindElement(By.XPath("//button[@id='menu-toggler']")).Click();
+
+            }
+
+            driver.FindElement(By.XPath("//div[@id='main-container']/div[@id='sidebar']/ul/li[(7-" + i + ")]/a"))
+                    .Click();
         }
 
         public void GoToProjectManagment()
@@ -38,5 +51,7 @@ namespace mantis_tests
             }
             driver.FindElement(By.LinkText("Управление проектами")).Click();
         }
+
+
     }
 }

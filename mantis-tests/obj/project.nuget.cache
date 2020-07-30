@@ -1,16 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "TlrrEelqF98E8NAEFYuAoBS+LtFAtsRJTlCEJfofBF8cy9KN4txBo+w/t5h9Qk5AWjpldNq9xMiDkOezKDGtUw==",
+  "dgSpecHash": "dtICtqxYe7ALUo+4TtSGJeYfLCViuU7lgQan9haMrJh1fqFTMz/UIB19wjIMicI7R3zSWPLTFsEd0tpE+qBiYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Demon\\source\\repos\\mantis\\mantis-tests\\mantis-tests.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Demon\\.nuget\\packages\\bouncycastle\\1.8.3.1\\bouncycastle.1.8.3.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\k4os.compression.lz4.streams\\1.1.11\\k4os.compression.lz4.streams.1.1.11.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\linq2db\\3.0.1\\linq2db.3.0.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\linq2db.mysql\\3.0.1\\linq2db.mysql.3.0.1.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\mstest.testadapter\\2.1.1\\mstest.testadapter.2.1.1.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\mstest.testframework\\2.1.1\\mstest.testframework.2.1.1.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\mysql.data\\8.0.20\\mysql.data.8.0.20.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\nunit\\2.7.1\\nunit.2.7.1.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\nunittestadapter\\2.3.0\\nunittestadapter.2.3.0.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\selenium.support\\3.141.0\\selenium.support.3.141.0.nupkg.sha512",
     "C:\\Users\\Demon\\.nuget\\packages\\selenium.webdriver\\3.141.0\\selenium.webdriver.3.141.0.nupkg.sha512",
-    "C:\\Users\\Demon\\.nuget\\packages\\system.net.ftpclient\\1.0.5824.34026\\system.net.ftpclient.1.0.5824.34026.nupkg.sha512"
+    "C:\\Users\\Demon\\.nuget\\packages\\ssh.net\\2016.1.0\\ssh.net.2016.1.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.net.ftpclient\\1.0.5824.34026\\system.net.ftpclient.1.0.5824.34026.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Demon\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }
