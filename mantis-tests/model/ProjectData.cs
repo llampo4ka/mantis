@@ -23,6 +23,8 @@ namespace mantis_tests
         [Column(Name = "id"), PrimaryKey, Identity]
         public string Id { get; set; }
 
+        
+
         public static List<ProjectData> GetAll()
         {
             using (MantisDB db = new MantisDB())

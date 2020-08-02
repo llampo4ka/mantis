@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using Google.Protobuf.WellKnownTypes;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -30,7 +31,7 @@ namespace mantis_tests
             Auth = new LoginHelper(this);
             Navigate = new NavigatorHelper(this);
             Project = new ProjectHelper(this);
-
+            API= new APIHelper(this);
 
         }
 
@@ -75,5 +76,6 @@ namespace mantis_tests
         public LoginHelper Auth  { get; }
         public NavigatorHelper Navigate { get; set; }
         public ProjectHelper Project { get; set; }
+        public APIHelper API { get; private set; }
     }
 }

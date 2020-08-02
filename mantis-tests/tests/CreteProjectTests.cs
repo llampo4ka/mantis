@@ -12,17 +12,27 @@ namespace mantis_tests
         [Test]
         public void CreteProjectTest()
         {
-            List<ProjectData> oldList = ProjectData.GetAll();
-
-            ProjectData project = new ProjectData("project name 2")
+            //List<ProjectData> oldList = ProjectData.GetAll();
+            AccountData account = new AccountData()
             {
-                Description = "descr fkdhgkhg"
+                Username = "administrator",
+                Password = "root"
             };
-            app.Project.CheckProjectName(project);            
-            app.Project.Create(project);
+            List<ProjectData> oldList = new List<ProjectData>();
+            app.API.GetProjectsList(account, oldList);
+
+            ProjectData project = new ProjectData("project name api")
+            {
+                Description = "descr-api fkdhgkhg"
+            };
+            app.Project.CheckProjectName(project);
+            app.API.CreateNewProject(account, project);
+            //app.Project.Create(project);
 
             oldList.Add(project);
-            List<ProjectData> newList = ProjectData.GetAll();
+            //List<ProjectData> newList = ProjectData.GetAll();
+            List<ProjectData> newList = new List<ProjectData>();
+            app.API.GetProjectsList(account, newList);
 
             oldList.Sort();
             newList.Sort();
